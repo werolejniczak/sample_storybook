@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("../../../public/fonts/SourceSans3-Italic-VariableFont_wght.ttf")
+    format("tff");
+  src: url("../../../public/fonts/SourceSans3-VariableFont_wght.ttf")
+    format("tff");
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #f7f7f7;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  width: max-content;
+}
+
+.segment {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #333333;
+  display: flex;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 20px;
+  min-width: max-content;
+  padding: 8px;
+  width: 100%;
+}
+
+.segment:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 3px 16px -4px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+}
