@@ -7,7 +7,7 @@ export default {
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/file/5HrWfIfrQ04bZ6EcYU35eo/%F0%9F%AA%B5-Components?type=design&node-id=7002%3A7145&mode=design&t=J3otNRG6GL8ZzJJR-1",
+      url: "https://www.figma.com/proto/4ab2J5nChOmtJDo2QMakLf/Learning-Day?page-id=0%3A1&type=[…]1&scaling=min-zoom&starting-point-node-id=20%3A223&mode=design",
     },
   },
 };
